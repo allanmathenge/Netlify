@@ -1,0 +1,47 @@
+.cover {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 0;
+}
+
+.heading {
+    margin: 0;   
+    font-weight: 900;
+    font-family: var(--font-family);
+    font-size: 64px;
+    text-align: center;
+}
+
+.article {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1024px;
+}
+
+.desc-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+.article .supporting {
+    width: 800px;
+    text-align: center;
+}
+
+.learn-more {
+    font-size: 18px;
+    padding: 11px 24px;
+    background-color: #2447e5;
+    border: none;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}

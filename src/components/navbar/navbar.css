@@ -1,0 +1,132 @@
+
+.navbar {
+    height: 74px;
+    background-color: #ffffffE6;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
+
+.links {
+    margin: 0 3px;
+}
+
+.navbar-menu {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.dropdown {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.search {
+    justify-content: flex-end;
+}
+
+li {
+    padding: 8px 12px;
+    display: flex;
+    text-wrap: nowrap;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    width: 130px;
+    height: 100%;
+    object-fit: contain;
+    font-weight: 900;
+    background: transparent;
+    margin-left: 80px;
+}
+
+.signup {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.button {
+    padding: 7px 12px;
+    border: none;
+    background: #2E51ED;
+    border-radius: 6px;
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.humberger-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    li {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1082px) {
+    .navbar-menu {
+        display: none;
+        font-size: 32px;
+    }
+    .navbar {
+        display: flex;
+        position: sticky;
+        justify-content: space-between;
+    }
+    .button {
+        display: none;
+    }
+    .humberger-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        font-size: 18px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    .signup {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .navbar {
+        font-size: 18px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+}
