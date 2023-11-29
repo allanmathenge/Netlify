@@ -43,8 +43,4 @@ h2 {
     
 }
 @media screen and (max-width: 640px) {
-    .unify-stack {
-        display: flex;
-        flex-direction: column;
-    }
 }
