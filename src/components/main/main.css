@@ -7,7 +7,6 @@
     object-fit: contain;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #15287d;
     height: 100vh;
 }
@@ -63,7 +62,6 @@
 .youtube-live {
     position: absolute;
     border-radius: 20px;
-    background-color: #091963;
     background-image: url(../../assets/video.jpg);
     background-position: center;
     background-size: contain;
@@ -99,7 +97,7 @@
 @media screen and (max-width: 640px) {
 
     .main {
-        width: 100vw;
+        width: 640px;
     }
     .headline {
         font-size: 39px;
@@ -107,6 +105,7 @@
 
     .youtube-live {
         width: 600px;
+        top: 60vh;
     }
     .supporting {
         padding-left: 32px;

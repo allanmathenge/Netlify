@@ -23,11 +23,11 @@ const Main = () => {
           <button className="requestDemo">Request demo</button>
         </div>
       </div>
-      {/* <div className="youtube-live">
+      <div className="youtube-live">
         <div className="embeded-video">
           <div className="video-content"></div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

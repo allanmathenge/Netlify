@@ -16,7 +16,6 @@ html {
 }
 
 body {
-    width: 100%;
     color: #181A1C;
     font-size: 18px;
     font-weight: 700;
@@ -53,10 +52,5 @@ body {
         max-width: 768px;
         padding-left: 20px;
         padding-right: 20px;
-    }
-}
-@media screen and (max-width: 640px) {
-    .App {
-        margin: 0;
     }
 }
