@@ -1,0 +1,50 @@
+.unify {
+    text-align: center;
+}
+
+.unify-stack {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    gap: 5px;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: 800;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.enterprises img {
+    width: 127px;
+    height: 76px;
+}
+
+.enterprises {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+@media screen and (max-width: 1536px) {
+
+}
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 640px) {
+    .unify-stack {
+        display: flex;
+        flex-direction: column;
+    }
+}

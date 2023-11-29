@@ -1,0 +1,51 @@
+.breakout {
+    color: #545A61;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px;
+}
+
+.input label {
+    font-weight: 300;
+}
+
+.invalid input {
+    width: 338px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.invalid button {
+    border: none;
+    background-color: #32E6E2;
+    font-weight: 800;
+    color: #000;
+    margin: 8px;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+
+.cookies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.security {
+    margin-top: 10px;
+    border-top: 1px solid #d1d6da;
+    color: #545A61;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    gap: 40%;
+    align-items: center;
+}

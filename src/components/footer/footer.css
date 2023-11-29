@@ -1,0 +1,24 @@
+.footer {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12%;
+}
+
+.wrapper p {
+    font-weight: 350;
+    font-size: 16px;
+}
+
+.why, .products, .explore, .company, .contact {
+    line-height: 35px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    color: #545A61;
+}

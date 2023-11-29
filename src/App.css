@@ -2,17 +2,21 @@
 
 html {
     scroll-behavior: smooth;
-    width: 1783px;
 }
 
 :root {
-    --font-family: 'Mulish', system-ui,“Helvetica Neue”,Arial,sans-serif;
+    --font-family: 'Mulish', system-ui,"Helvetica Neue",Arial,sans-serif;
     --color: #fff;
 }
 
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
     color: #181A1C;
     font-size: 18px;
     font-weight: 700;
@@ -20,6 +24,39 @@ body {
 }
 
 .App {
-    margin: 0;
-    padding: 0;
+    width: 1759px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1536px) {
+    .App {
+        max-width: 1536px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .App {
+        max-width: 1280px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .App {
+        max-width: 1024px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .App {
+        max-width: 768px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .App {
+        margin: 0;
+    }
 }

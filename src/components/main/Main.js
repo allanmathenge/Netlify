@@ -1,5 +1,4 @@
 import React from "react";
-import { FaPlayCircle } from "react-icons/fa";
 import "./main.css";
 
 const Main = () => {
@@ -24,14 +23,11 @@ const Main = () => {
           <button className="requestDemo">Request demo</button>
         </div>
       </div>
-      <div className="youtube-live">
+      {/* <div className="youtube-live">
         <div className="embeded-video">
-          <div className="video-content">
-            {/* Video iframe was removed */}
-            <FaPlayCircle className="play-icon" />
-          </div>
+          <div className="video-content"></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -62,6 +62,8 @@ li {
     display: flex;
     gap: 10px;
     align-items: center;
+    padding-right: 30px;
+    font-size: 18px;
 }
 
 .button {
@@ -86,12 +88,10 @@ li {
 @media screen and (max-width: 1082px) {
     .navbar-menu {
         display: none;
-        font-size: 32px;
     }
     .navbar {
         display: flex;
-        position: sticky;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .button {
         display: none;
@@ -104,18 +104,16 @@ li {
 @media screen and (max-width: 1024px) {
     .navbar {
         font-size: 18px;
-        margin-left: 80px;
-        margin-right: 80px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .navbar {
         font-size: 24px;
-        font-weight: 900;
+        font-weight: 700;
     }
     .logo {
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .signup {
         gap: 10px;
@@ -125,8 +123,7 @@ li {
     .navbar {
         font-size: 18px;
     }
-
     .logo {
-        margin-left: 30px;
+        margin-left: 0;
     }
 }
